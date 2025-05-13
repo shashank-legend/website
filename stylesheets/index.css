@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  height: 100vh;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+/* Left Section */
+.left {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  flex: 1;
+  text-align: center;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.left h1 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.pronouns {
+  font-weight: 600;
+  font-size: 16px;
+  color: #bbbbbb;
+}
+
+.title {
+  font-size: 18px;
+  color: #888888;
+  margin-bottom: 30px;
+}
+
+.email-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #8b8686d9;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.email-btn:hover {
+  background-color: #333333;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #f0f0f0;
+  transition: transform 0.2s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}
+
+/* Right Section */
+.right {
+  background-color: #1e1e1e;
+  color: #dddddd;
+  flex: 1;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.right p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  color: #cccccc;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.btn {
+  background-color: #8b8686d9;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #333333;
+}
+
+.email-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+
